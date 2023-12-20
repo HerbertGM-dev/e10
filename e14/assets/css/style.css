@@ -1,0 +1,158 @@
+@charset "utf-8";
+@import url("fontawesome-free/css/all.css");
+@import url("normalize.css");
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: arial, verdana, sans-serif;
+    outline: 1px dotted red;
+    
+
+}
+
+.container{
+    margin: auto ;
+    max-width: 857px;
+    height: 629px;
+    padding: 10px;
+    background-color: rgb(85, 112, 100);
+}
+/* div{
+    display: inline-block;
+    vertical-align: top;
+} */
+#header{
+    width: 857px;
+    height: 70px;
+    margin: 0px 10px 10px 0px;
+    background-color: gray;
+    border: solid 4px black;
+}
+#header div{
+    display: inline-block;
+    vertical-align: top;
+}
+img,ul li,ul{
+    display: inline-block;
+}
+#logo{
+    width: 327px;
+    height: 69px;
+    background-color: aqua;
+}
+#headerUl{
+    margin-left: 200px;
+    margin-top: 30px;
+}
+li{
+    margin-left: 8px;
+}
+#userPic{
+    display: inline-block;
+    /* background-color: aqua; */
+    height: 69px;
+    width: 68px;
+}
+#nav{
+    width: 824px;
+    height: 20px;
+    margin: 0px 10px 10px 0px;
+    padding: 10px;
+    background-color: rgb(188, 173, 173);
+}
+#navUl{
+    margin-left: 10px;
+}
+.navLi{
+    margin-left: 44px;
+}
+#content{
+    width: 844px;
+    height: 483px;
+}
+#contentRight{
+    display: inline-block;
+    vertical-align: top;
+    width: 180px;
+    height: 454px;
+    border: 2px solid gray;
+    padding: 13px;
+    background-color: black;
+}
+.contentHeader{
+    width: 176px;
+    height: 135px;
+    margin-bottom: 12px;
+    border: 1px solid black;
+    background-color: gray;
+}
+#contentLeft{
+    display: inline-block;
+    width: 600px;
+    height: 481px;
+    margin-left: 31px;
+}
+#promotionalB{
+    width: 598px;
+    height: 72px;
+    border: 1px solid gainsboro;
+    background-color: gray;
+}
+h1{
+    font-size: 22px;
+    margin: 20px;
+    padding-left: 15px;
+}
+#content2nd{
+    
+    width: 598px;
+    height: 307px;
+    border: 1px solid black;
+    margin: 15px 0px;
+    background-color: rgb(109, 102, 102);
+}
+#content3rd{
+    width: 600px;
+    height: 69px;
+    background-color: brown;
+}
+.lowerBanner{
+    height: 69px;
+    width: 189px;
+    background-color: aqua;
+}
+#midB{
+    margin: 0px 12px;
+}
+.insideContent2nd{
+    display: inline-block;
+    width: 263px;
+    height: 283px;
+    margin-left: 21px;
+    margin-top: 12px;
+    border: 1px solid black;
+    background-color: aliceblue;
+}
+.contentImg{
+    width: 239px;
+    height: 207px;
+    margin: 0px 5px 0px 12px;
+    background-color: aqua;
+}
+.contentH2{
+    padding: 15px;
+}
+p{
+    font-size: 8px;
+    padding: 0px 15px;
+}
+.headerH2{
+    padding: 7px;
+    padding-left: 18px;
+}
+button{
+    width: 77px;
+    height: 26px;
+    margin: 6px 5px 0px 85px;
+}
